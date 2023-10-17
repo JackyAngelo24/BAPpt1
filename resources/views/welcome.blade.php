@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+{{-- <!DOCTYPE html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
     <head>
         <meta charset="utf-8">
@@ -26,4 +26,18 @@
             </div>
         </div>
     </body>
-</html>
+</html> --}}
+@extends('layouts.app2')
+@section('title', 'Welcome')
+@section('content')
+@section('br1', 'Welcome')
+@section('br2', 'Welcome')
+<div>
+    <p style="font-size: 48px">Selamat Datang</p>
+    <p style="font-size: 48px">di Website</p>
+    <p style="font-size: 72px">JACKY ANGELO</p>
+    <div>
+        <a href="Profil">Lihat Profil</a>
+    </div>
+</div>
+@endsection

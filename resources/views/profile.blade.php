@@ -1,6 +1,8 @@
-@extends('layouts.app')
+@extends('layouts.app2')
 @section('title', 'Profil')
 @section('content')
+@section('br1', 'Profil')
+@section('br2', 'Profil')
 <div>
     <p style="text-align:center; font-size: 48px; margin-top:36px; font-weight: bold">BIODATA</p>
     <div class="container" style="max-width:70%">

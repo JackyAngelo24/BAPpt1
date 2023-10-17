@@ -2,9 +2,11 @@
 use App\Models\mahasiswa;
 ?>
 
-@extends('layouts.app')
+@extends('layouts.app2')
 @section('title', 'Profil')
 @section('content')
+@section('br1', 'Mahasiswa')
+@section('br2', 'Mahasiswa')
 <div>
     <p style="text-align:center; font-size: 48px; margin-top:36px; font-weight: bold">DATA MAHASISWA</p>
     <div class="d-flex justify-content-center">
